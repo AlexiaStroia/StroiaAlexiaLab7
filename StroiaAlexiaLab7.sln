@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StroiaAlexiaLab7", "StroiaAlexiaLab7\StroiaAlexiaLab7.csproj", "{000CFA00-6888-4673-AA36-F539B5527904}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{000CFA00-6888-4673-AA36-F539B5527904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{000CFA00-6888-4673-AA36-F539B5527904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{000CFA00-6888-4673-AA36-F539B5527904}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{000CFA00-6888-4673-AA36-F539B5527904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{000CFA00-6888-4673-AA36-F539B5527904}.Release|Any CPU.Build.0 = Release|Any CPU
+		{000CFA00-6888-4673-AA36-F539B5527904}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E24EC36C-6324-4500-998B-AC6BDF50AD34}
+	EndGlobalSection
+EndGlobal

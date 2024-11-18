@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StroiaAlexiaLab7.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+   
+            <Image
+                Source="dog.jpg" 
+                HeightRequest="200"
+                Aspect="AspectFit"
+                SemanticProperties.Description="Happy Dog" />
+
+                <Label
+                Text="Welcome to My Personalized App!"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
+
+                <Label
+                Text="Hello, I am Pufi, and this is my custom MainPage!"
+                Style="{StaticResource SubHeadline}"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Personalized introduction" />
+
+                <Button
+                x:Name="CounterBtn"
+                Text="Press me for a surprise!" 
+                SemanticProperties.Hint="Press this button to see what happens"
+                Clicked="OnCounterClicked"
+                HorizontalOptions="Fill" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
